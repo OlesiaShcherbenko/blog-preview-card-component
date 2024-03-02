@@ -2,5 +2,6 @@
     background-color: #FFFFFF;
     width: 384px;
     height: auto;
-    border-radius:  20px;
+    border-radius: 20px;
+    filter: drop-shadow(8px 8px);
 }

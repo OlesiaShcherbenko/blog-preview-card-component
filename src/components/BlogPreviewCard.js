@@ -1,13 +1,14 @@
 import React from "react";
 import './BlogPreviewCard.css';
-import BlogImage from "./BlogImage";
 import Content from "./Content";
+//import BlogImage from "./BlogImage";
+import Author from "./Author";
 
 function BlogPreviewCard() {
     return (
-       <div className="card">
-            <BlogImage />
+        <div className="card">
             <Content />
+            <Author />
        </div>
     )
 };

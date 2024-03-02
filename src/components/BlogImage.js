@@ -1,10 +1,10 @@
 import React from "react";
-//import image from "src/assets/illustration-article.svg";
+import image from "src/assets/blogimage.png";
 
 function BlogImage() {
     return (
         <div>
-            
+            <img src={image} alt='' />
         </div>
     )
 }
