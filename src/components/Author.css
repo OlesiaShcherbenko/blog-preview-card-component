@@ -1,9 +1,18 @@
 .author {
     margin: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 p {
     font-size: 14px;
     font-weight: 800;
     line-height: 150%;
+    margin: 0px 0px 0px 12px;
+}
+
+.authorimg {
+    width: 32px;
+    height: 32px;
 }
