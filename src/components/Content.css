@@ -1,3 +1,4 @@
+
 .content {
     margin: 24px;
 }
@@ -28,6 +29,11 @@ h1 {
     font-weight: 800;
     color: #111111;
     margin: 12px 0px;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: #F4D04E;
 }
 
 .content-size {
