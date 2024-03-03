@@ -2,3 +2,12 @@
 .image {
     margin: 24px;
 }
+
+@media only screen and (max-width: 430px) {
+    .image-blog {
+        width: 279px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}

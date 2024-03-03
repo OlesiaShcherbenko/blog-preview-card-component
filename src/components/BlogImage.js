@@ -5,7 +5,7 @@ import './BlogImage.css';
 function BlogImage() {
     return (
         <div className="image">
-            <img src={image} alt='' />
+            <img src={image} className="image-blog" alt='' />
         </div>
     )
 }

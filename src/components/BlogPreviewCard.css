@@ -10,3 +10,10 @@
 .card:hover {
     filter: drop-shadow(16px 16px);
 }
+
+@media only screen and (max-width: 430px) {
+    .card {
+        width: 327px;
+        height: auto;
+    }
+}
